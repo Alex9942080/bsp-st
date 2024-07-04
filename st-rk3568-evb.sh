@@ -43,6 +43,6 @@ OUTPUT=$ROOT/output/ds-rk3568-evb
 make defconfig BR2_DEFCONFIG=configs/systemt_rk3568_evb_defconfig O=$OUTPUT || exit 1
 
 cd $OUTPUT
-#make
+make
 
 exit 0
