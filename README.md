@@ -9,4 +9,6 @@ cd bsp-st
 ```
 After the script completes, the finished SD-card image will be located in the output/ds-rk3568-evb/images directory.
 
+sudo dd if=ds-rk3568-evb-sdcard.img of=/dev/sde bs=1M
+
 ##
